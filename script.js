@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const FUNCTION_API_URL = "http://localhost:3000";
+  const FUNCTION_API_URL = "https://qrbe.kigombo.live";
   const envAPI = "/qrcode";
   const generateBtn = $('#generateBtn');
   const inputNumber = $("#inputNumber");
