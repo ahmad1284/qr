@@ -194,3 +194,32 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* Media Queries for Mobile Responsiveness */
+
+/* Adjust styles for screens with a maximum width of 768px (typically mobile devices) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    /* Stack navigation links vertically */
+    align-items: center;
+    /* Center the navigation links horizontally */
+  }
+
+  nav li {
+    margin-right: 0;
+    /* Remove the right margin from list items */
+    margin-bottom: 10px;
+    /* Add a bottom margin to list items for spacing */
+  }
+
+  #qrCodePreview {
+    padding: 10px;
+    /* Reduce padding for QR code container on mobile */
+  }
+
+  form input[type="text"] {
+    max-width: 100%;
+    /* Set the maximum width of the input field to fill the screen on mobile */
+  }
+}
